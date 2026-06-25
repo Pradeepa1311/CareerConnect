@@ -1,0 +1,100 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+.app-main {
+  flex: 1;
+  padding: 24px 16px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.hero-banner {
+  padding: 3rem 1.5rem;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #7b6eff 0%, #4f6dff 100%);
+  color: white;
+  box-shadow: 0 25px 60px rgba(60, 66, 130, 0.12);
+}
+
+.hero-banner h1,
+.hero-banner p {
+  margin: 0;
+}
+
+.feature-card {
+  border-radius: 18px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 14px 45px rgba(75, 90, 131, 0.08);
+}
+
+.job-listing {
+  gap: 1rem;
+}
+
+.job-card {
+  border: 1px solid #dee2e6;
+  border-radius: 16px;
+  padding: 1.5rem;
+  background: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(82, 94, 138, 0.12);
+}
+
+.job-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+.job-card .job-meta {
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.job-card .job-badge {
+  margin-right: 0.5rem;
+}
+
+.search-input {
+  max-width: 360px;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 14px 32px rgba(82, 94, 138, 0.1);
+}
+
+.footer-brand {
+  margin: 0;
+}
+
+.footer-note {
+  margin: 0.5rem 0 0;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 2rem 1rem;
+  }
+
+  .app-main {
+    padding: 16px 12px;
+  }
+}
